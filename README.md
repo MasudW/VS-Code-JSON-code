@@ -1,19 +1,18 @@
 # VS-Code-JSON-code
 
-#Name of font
+<h1>Name of font</h1>
 
-#HTML
+<h2>HTML</h2>
 - Fira Code, Sudo, Operator Mono, Consolas, 'Courier New', monospace
 
-#CSS
+<h2>CSS</h2>
 - Sudo
 
-JavsScript
+<h2>JavsScript</h2>
 - Fira Code
 
-#Name of theme
-
-#Learn with Sumit - Shades of Grey
+<h1>Name of theme</h1>
+- Learn with Sumit - Shades of Grey
 
 
 #ThankYou
