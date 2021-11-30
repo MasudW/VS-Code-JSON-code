@@ -1,15 +1,17 @@
 {
   "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
+  "editor.defaultFormatter": null,
   "[javascript]": {
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "editor.lineHeight": 35,
-    "editor.letterSpacing": 0.4
+    "editor.letterSpacing": 0.4,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "[css]": {
     "editor.fontFamily": "Sudo",
     "editor.fontSize": 20,
-    "editor.letterSpacing": 1.2
+    "editor.letterSpacing": 1.2,
   },
   "[html]": {
     "editor.lineHeight": 29,
@@ -32,7 +34,7 @@
 },
 "files.autoSave": "afterDelay",
 "files.autoSaveDelay": 1000,
-"editor.formatOnSave": true,
-"comment-divider.length": 40
+"comment-divider.length": 40,
+"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
+"editor.formatOnType": true
 }
-
