@@ -12,7 +12,7 @@
 - Fira Code
 
 <h1>Name of theme</h1>
-- Learn with Sumit - Shades of Grey
+- Shades of Purple
 
 
 <h3 style="color:red;">Thank You</h3>
