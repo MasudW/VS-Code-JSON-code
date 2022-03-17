@@ -1,5 +1,5 @@
 {
-  "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
+  "workbench.colorTheme": "Shades of Purple",
   "editor.defaultFormatter": null,
   "[javascript]": {
     "editor.fontFamily": "Fira Code",
@@ -14,76 +14,66 @@
     "editor.letterSpacing": 1.2,
   },
   "[html]": {
-    "editor.lineHeight": 29,
+    "editor.lineHeight": 33,
     "editor.letterSpacing": 0.4
   },
   "liveServer.settings.CustomBrowser": "chrome",
-  "workbench.iconTheme": "vscode-icons",
   "editor.fontSize": 18,
-  "editor.minimap.enabled": false,
   "editor.cursorBlinking": "expand",
-  "editor.fontFamily": "Fira Code, Sudo, Operator Mono, Consolas, 'Courier New', monospace",
-  "[liveServer.settings.proxy]": {
-    "proxyUri": "http://masudrwd:80"
-  },
-//  • • • 𝘔𝘰𝘥𝘪𝘧𝘺 𝘣𝘺 𝘮𝘦 𝘧𝘰𝘳 𝘮𝘺 𝘴𝘪𝘥𝘦• • • •⁡ 
+  "editor.fontFamily": "Fira Code, Sudo,CaskaydiaCove NF, Operator Mono, Consolas, 'Courier New', monospace",
   "workbench.colorCustomizations": {
-    "[Learn with Sumit - Shades of Grey]": {
-        "sideBar.background": "#242424"
-    }
+    "[Shades of Purple]": {
+        "sideBar.background": "#041524",
+        "editor.lineHighlightBackground": "#0088aa20",
+        "editor.lineHighlightBorder": "#0088aa20",
+        "editorCursor.foreground": "#00ffd5",
+        "editor.background": "#00141d",
+        "editorGutter.background": "#00141d",
+        "editor.selectionBackground": "#00d9ff55",
+        "editor.findMatchHighlightBorder": "#00ffff80",
+        "editor.findRangeHighlightBorder": "#00ffff80",
+        "editor.findMatchHighlightBackground": "#00ffff88",
+        "editor.findMatchBorder": "#00BCD4",
+        "editor.findMatchBackground": "#76dbdb50",
+        "terminal.background" : "#00141d",
+        "terminal.foreground" : "#00FD61",
+        "titleBar.activeForeground": "#ffffff",
+        "titleBar.activeBackground": "#000c13",
+        "titleBar.inactiveBackground": "#202020",
+        "titleBar.inactiveForeground": "#ffffff",
+        "minimapSlider.background": "#041524",
+        "scrollbarSlider.activeBackground": "#a5a5a5",
+        "scrollbarSlider.background": "#797979e1",
+        "editorGroupHeader.tabsBorder": "#7474748c",
+        "editorSuggestWidget.selectedBackground": "#0088aa20",
+        "activityBar.background": "#000c13",
+        "activityBar.foreground": "#ffffff",
+        "terminal.border": "#8383833f",
+        "statusBar.background" : "#1d080d0a",
+        "problemsErrorIcon.foreground": "#ff0000",
+        "statusBar.foreground": "#ffffff",
+        "tab.activeBackground": "#000000",
+        "panel.background": "#041524",
+        "welcomePage.background": "#041524",
+        "welcomePage.tileHoverBackground": "#000000",
+        "welcomePage.progress.background": "#ffffff",
+        "welcomePage.progress.foreground": "#00FD61",
+        "welcomePage.tileBackground": "#7979792a",
+        "sideBar.foreground": "#ebebeb",
+        "sideBarTitle.foreground": "#ffffff",
+        "tab.inactiveForeground": "#ffffff",
+        "editorSuggestWidget.background": "#041524",
+        "editorSuggestWidget.foreground": "#c2c2c2",
+        "editorGroupHeader.tabsBackground": "#041524",
+        "tab.inactiveBackground": "#041524",
+        "sideBarSectionHeader.background": "#041524",
+    },
+
 },
 "files.autoSave": "afterDelay",
 "files.autoSaveDelay": 1000,
 "comment-divider.length": 40,
-"terminal.integrated.defaultProfile.windows": "Ubuntu (WSL)",
-"editor.formatOnType": true
-}
-
-
-
-
-
-
-// ANd 
-
-
-
-
-{
-  "workbench.colorTheme": "Learn with Sumit - Shades of Grey",
-  "editor.defaultFormatter": null,
-  "[javascript]": {
-    "editor.fontFamily": "Fira Code",
-    "editor.fontLigatures": true,
-    "editor.lineHeight": 35,
-    "editor.letterSpacing": 0.4,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.fontFamily": "Sudo",
-    "editor.fontSize": 20,
-    "editor.letterSpacing": 1.2,
-  },
-  "[html]": {
-    "editor.lineHeight": 29,
-    "editor.letterSpacing": 0.4
-  },
-  "liveServer.settings.CustomBrowser": "chrome",
-  "workbench.iconTheme": "vscode-icons",
-  "editor.fontSize": 18,
-  "editor.minimap.enabled": false,
-  "editor.cursorBlinking": "expand",
-  "editor.fontFamily": "Fira Code, Sudo, Operator Mono, Consolas, 'Courier New', monospace",
-//  • • • 𝘔𝘰𝘥𝘪𝘧𝘺 𝘣𝘺 𝘮𝘦 𝘧𝘰𝘳 𝘮𝘺 𝘴𝘪𝘥𝘦• • • •⁡ 
-  "workbench.colorCustomizations": {
-    "[Learn with Sumit - Shades of Grey]": {
-        "sideBar.background": "#242424"
-    }
-},
-"files.autoSave": "afterDelay",
-"files.autoSaveDelay": 1000,
-"comment-divider.length": 40,
-"terminal.integrated.defaultProfile.windows": "wsl",
+"terminal.integrated.defaultProfile.windows": "PowerShell",
 "editor.formatOnType": true,
 "workbench.editorAssociations": {
   "*.vsix": "default"
@@ -93,7 +83,8 @@
 "terminal.integrated.profiles.windows": {
   "PowerShell": {
     "source": "PowerShell",
-    "icon": "terminal-powershell"
+    "icon": "terminal-powershell",
+    "editor.fontFamily": "CaskaydiaCove NF",
   },
   "Command Prompt": {
     "path": [
@@ -112,5 +103,7 @@
   }
 },
 "terminal.external.windowsExec": "C:\\Windows\\System32\\wsl.exe",
+"editor.tokenColorCustomizations": {
+  "comments": "#757575"
 }
-
+}
