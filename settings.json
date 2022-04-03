@@ -112,4 +112,19 @@
 "editor.tokenColorCustomizations": {
   "comments": "#757575"
 },
+"json.schemas": [
+  
+  {
+    "fileMatch": [
+      "/myfile"
+    ],
+    "url": "schemaURL"
+  }
+
+
+],
+"powermode.enabled": true,
+"powermode.combo.counterEnabled": "hide",
+"powermode.shake.enabled": false,
+"powermode.combo.timerEnabled": "hide",
 }
